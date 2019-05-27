@@ -75,6 +75,8 @@ class Calendar extends Component {
     // Handler which gets executed when press arrow icon left. It receive a callback can go next month
     onPressArrowRight: PropTypes.func,
 
+    hideMonthNames: PropTypes.bool,
+    customWeekLabels: PropTypes.array,
     weekLabelPosition: PropTypes.oneOf(["top", "bottom"])
   };
 
